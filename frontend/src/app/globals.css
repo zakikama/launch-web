@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @tailwind utilities;
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -18,6 +20,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: 'Comfortaa';
   background: linear-gradient(
       to bottom,
       transparent,

@@ -1,0 +1,33 @@
+*{
+    background-color:#2C2C2C;
+    margin: 0;
+    padding: 0;
+}
+.images1{
+    height: 600px;
+    width: 600px;
+    margin-top: 172px;
+    margin-left: 268px;
+    border-radius: 12px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -100px;
+    color: white;
+    font-family:'Comfortaa';
+    word-wrap: break-word;
+    line-height: 1.8;
+}
+body{
+    height: 10px;
+}
+.image2{
+    height: 400px;
+    width: 400px;
+    margin-left: 1090px;
+    
+}
+    
+
+

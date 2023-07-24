@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/Comfortaa-VariableFont_wght.ttf') format('ttf');
+    /* Add more font formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
