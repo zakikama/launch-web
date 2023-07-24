@@ -1,0 +1,192 @@
+*{
+    
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: #333333;
+    
+    }
+
+
+
+/*
+
+/* Styles pour écran < 786 pixels 
+@media (max-width: 785px) {
+    .page-container {
+      /* Styles pour centrer horizontalement et verticalement les divs 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+     
+    }
+    .page-container{
+      background-color: #2c2c2c;
+    }
+  
+    /* Supprimez les styles pour aligner horizontalement les divs 
+    .container, .Progres {
+      display: block;
+      text-align: center;
+      max-width: 100%;
+    }
+    .first_P{
+      flex: 0 1 auto;
+      padding-bottom: 0%;
+        justify-content: start;
+        font-weight: 400;
+       line-height: 32.49px;
+       margin-top: auto;
+    }
+    .second_P{
+    color: rgb(143, 143, 143);
+    flex: 1 1 auto;
+    padding: 10%;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16.75px;
+    word-wrap: break-word
+    }
+  }
+  
+  /* Styles pour écran >= 786 pixels 
+  @media (min-width: 786px) {
+    .page-container {
+      /* Styles pour assembler les divs horizontalement 
+      display: flex;
+      justify-content: space-around;
+      align-items: start;
+      margin-top: 140px;
+      height: 100vh;
+    }
+    
+    .container {
+      /* Supprimez les styles de centrage précédents 
+      display: block;
+      text-align: center;
+      max-width: 786px; /* Limitez la largeur pour éviter l'extension excessive sur les grands écrans 
+    }
+    
+    .Progres {
+      /* Supprimez les styles de centrage précédents 
+      display: block;
+      text-align: center;
+      max-width: 786px; /* Limitez la largeur pour éviter l'extension excessive sur les grands écrans 
+    }
+    .second_P{
+        color: rgba(0, 0, 0, 0.63);
+    font-size: 14px;
+    ;
+   
+    font-weight: 500;
+    line-height: 16.75px;
+    word-wrap: break-word
+    }
+  }
+  .first_P{
+    color: white;
+    
+  }
+  */
+  body {
+  margin: 0;
+  padding: 0;
+  background-color: #2c2c2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  
+ 
+}
+
+.container {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #2c2c2c;
+  
+}
+
+/*.box {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+/* Pour la mise en parallèle sur PC */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10%;
+    
+    flex-direction: column;
+    align-content: space-around;
+  }
+}
+.text_1{
+  color: white;
+  font-family: 'Comfortaa';
+  line-height: 30px;
+  text-align: center;
+  flex-grow: 1;
+  top: 10vh;
+  
+  
+}
+
+.circle{
+  align-items: center;
+  /*width: 70%;
+  height: 40%;*/
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.text_2{
+  color: #898989;
+  font-family: 'Comfortaa';
+  line-height: 30px;
+  text-align: center;
+  flex-grow: 1;
+  font-size: 70%;
+}
+.start{
+  flex-grow: 1;
+  background-color: #ff0000; 
+  color: #fff;
+  padding: 10px 20px; /* Marge interne pour le bouton */
+  border-radius: 25px; 
+  font-size: 16px; 
+  height: 40px;
+  width: 120px;
+  margin-top: 10%; 
+
+  
+}
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .text_1,
+  .circle,
+  .text_2,
+  .button {
+    margin-top: 0; /* Supprimez l'espace vers le haut/dans les grands écrans */
+  }
+}

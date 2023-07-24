@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa/Comfortaa-Light.ttf');
+    src: url('/fonts/Comfortaa/Comfortaa-Medium.ttf');
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background:  #2C2C2C;
+    position: relative;
+      }
+
+.containerchild{
+    display: flex;
+    position: relative;
+    background-color: #494949;  
+    margin: 5%;
+    border-radius: 50px;
+    } 
+
+ .droite{
+    display: flex;
+    flex-direction: column;
+   flex: 1;
+   position: relative;
+  align-items: center;
+  }
+  
+    
+.gauche{
+        flex: 1;
+        position: relative;
+        max-width: 50%;
+ }
+
+.container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+    margin-top: 10%;
+ }
+ 
+.icones{
+margin-top: -770px;
+margin-left: 600px;
+justify-content:right;
+}
+
+.google {
+    width: 68px;
+    height: 68px;
+    position: relative;
+    top: 1190px;
+    margin: auto;
+   right: 330px;
+}
+  
+.fb{
+  width: 100px;
+    height: 100px;
+    position: relative;
+    top: 1200px;
+    margin: auto;
+   right: 350px;
+}
+
+.spotify{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 1100px;
+    margin: auto;
+    right: 170px;
+}
+
+.X{
+    color: gray;
+    font-size: larger;
+    font-family: 'Comfortaa';
+    margin-top: 20px;
+}
+
+  .re{
+    color:aqua;
+    font-size: 12px;
+    font-family: 'Comfortaa';
+    margin-left: 40%;
+    margin-top: -85px;
+ }
+
+  .ligne1{
+    position: absolute;
+    top: 500px;
+    left: 60%;
+    padding: 10px;
+}
+
+  .ligne2{
+   position: absolute;
+    top: 500px;
+    left: 10%;
+    padding: 10px;
+}
+
+.or{
+    width: 500px;
+   color: white;
+   text-align: center;
+   margin-top: 510px;
+    
+
+}
+
+.formulaire{
+   margin-top: 50px;
+
+
+}
+.large-input {
+   margin-top: -100px;
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-size: larger;
+}
+
+.email{
+    font-size: 20px;
+    font-family: 'Comfortaa';
+}
+.password{
+    font-size: 20px;
+    font-family: 'Comfortaa';
+}
+.submit{
+    background-color: #2C2C2C;
+    color: white;
+    height: 30px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.ligneor{
+position: absolute;
+}
+.test{
+  display: flex;
+  justify-content: center;
+}
+.test img{
+  margin: 0 10px;
+}
