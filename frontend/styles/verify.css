@@ -1,0 +1,81 @@
+.tout{
+    width: 100vw; /* ou la largeur souhaitée */
+    height: 100vh;
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C2C2C;
+
+}
+.enveloppe{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+
+}
+.logo{
+    max-height: 40px;
+}
+.outer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+
+    min-width: 70vw;
+    padding: 40px;/* ou la hauteur souhaitée */
+    background-color: #5e5d5dd3; /* ou la couleur souhaitée */
+    border-radius: 15px;
+    display: flex;
+    flex-grow: initial;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
+
+}
+
+.mail{
+    flex: 1;
+    padding: 10px;
+    font-family: 'Comfortaa';
+    color: #2C2C2C;
+    text-align: center;
+    font-size: larger;
+
+}
+.mail_2{
+    flex: 1;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.continue-button {
+    flex: 0;
+    background-color: #0fffff;
+    border-radius: 10px;
+    color: #2c2c2c;
+    padding: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .inner {
+        max-width: 70%;
+    }
+}
